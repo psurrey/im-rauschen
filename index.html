@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Im Rauschen - Ferienwohnungen</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Work+Sans:300,400,700"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="css/jquery-ui.css" />
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+
+    <link rel="stylesheet" href="fonts/fontawesome/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="fonts/fontawesome/css/solid.min.css" />
+
+    <link rel="stylesheet" href="css/aos.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script>
+      function goTo(elementId, clickTarget) {
+        $(".site-menu li.active").removeClass("active");
+        $(clickTarget)
+          .parent()
+          .addClass("active");
+        $("html, body").animate(
+          {
+            scrollTop: $(elementId).offset().top - 100
+          },
+          1000
+        );
+      }
+    </script>
+  </head>
+  <body>
+    <div class="site-wrap">
+      <div class="site-navbar-wrap js-site-navbar bg-white">
+        <div class="container">
+          <div class="site-navbar bg-light">
+            <div class="py-1">
+              <div class="row align-items-center">
+                <div class="col-2">
+                  <h2 class="mb-0 site-logo">
+                    <a href="index.html">Im Rauschen</a>
+                    <small>Ferienwohnungen</small>
+                  </h2>
+                </div>
+                <div class="col-10">
+                  <nav class="site-navigation text-right" role="navigation">
+                    <div class="container">
+                      <div
+                        class="d-inline-block d-lg-none  ml-md-0 mr-auto py-3"
+                      >
+                        <!-- Mobile menu toggle -->
+                        <a
+                          href="#"
+                          class="site-menu-toggle js-menu-toggle"
+                          style="display: none"
+                        >
+                          <span class="icon-menu h3"></span>
+                        </a>
+                      </div>
+                      <ul class="site-menu js-clone-nav d-none d-lg-block">
+                        <li class="active">
+                          <a onclick="goTo('.home-slider', this)">Home</a>
+                        </li>
+                        <li>
+                          <a onclick="goTo('#appartments', this)">Unser Angebot</a>
+                        </li>
+                        <li><a onclick="goTo('#kontakt', this)">Kontakt</a></li>
+                        <li>
+                          <a onclick="goTo('#gallery', this)">Gallerie</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide-one-item home-slider owl-carousel">
+        <div
+          class="site-blocks-cover overlay"
+          style="background-image: url(images/hero_1.jpg);"
+          data-aos="fade"
+          data-stellar-background-ratio="0.5"
+        >
+          <div class="container">
+            <div class="row align-items-center justify-content-center">
+              <div class="col-md-7 text-center" data-aos="fade">
+                <h1 class="mb-2">Willkommen</h1>
+                <h2 class="caption">
+                  Aktivurlaub - Ruhe geniessen - Den Alltag vergessen
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="site-blocks-cover overlay"
+          style="background-image: url(images/hero_2.jpg);"
+          data-aos="fade"
+          data-stellar-background-ratio="0.5"
+        >
+          <div class="container">
+            <div class="row align-items-center justify-content-center">
+              <div class="col-md-7 text-center" data-aos="fade">
+                <h1 class="mb-2">Westerwald</h1>
+                <h2 class="caption">
+                  Urlaub mit den Hunden? - Klar, kein Problem!
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="site-section bg-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 mx-auto text-center mb-5 section-heading">
+              <h2 class="mb-5" id="appartments">Unser Angebot</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 col-lg-12 mb-5">
+              <div class="hotel-room text-center">
+                <img src="images/img_1.jpg" alt="Image" class="img-fluid" />
+                <div class="hotel-room-body">
+                  <h3 class="heading mb-2">
+                    Ferienwohnung Im Rauschen
+                  </h3>
+                  <h6 class="mb-5">
+                    <small><strong class="price">75qm</strong> große Ferienwohnung in schöner Lage.</small>
+                  </h6>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-6 mb-4 text-left">
+                      <h6>Zimmer</h6>
+                      <ul>
+                        <li></li>
+                        <li><strong class="price">1</strong> Schlafzimmer mit Doppelbett</li>
+                        <li><strong class="price">2</strong> Schlafzimmer mit 2 Einzelbetten</li>
+                        <li><strong class="price">1</strong> Bad</li>
+                        <li><strong class="price">1</strong> Wohnküche</li>
+                      </ul>
+                      <h6>Sonstiges</h6>
+                      <ul class="more-spacing">
+                          <li><i class="fas fa-wifi"></i> WLAN im gesamten Wohnbereich</li>
+                          <li><i class="fas fa-sun"></i> Gartenmitbenutzung inklusive Grill</li>
+                          <li><i class="fas fa-shower"></i> Handtücher im Bad inklusive</li>
+                          <li><i class="fas fa-utensils"></i> Geschirr und Besteck für 8 Personen</li>
+                      </ul>
+                      <h6>Im Küchenbereich</h6>
+                      <ul>
+                          <li><i class="fas fa-check-circle"></i> Mikrowelle</li>
+                          <li><i class="fas fa-check-circle"></i> Herd mit Cerankochfeld</li>
+                          <li><i class="fas fa-check-circle"></i> Kaffeemaschine</li>
+                          <li><i class="fas fa-check-circle"></i> Wasserkocher</li>
+                          <li><i class="fas fa-check-circle"></i> Messerblock</li>
+                          <li><i class="fas fa-check-circle"></i> Spülmaschine</li>
+                          <li><i class="fas fa-check-circle"></i> Kühlschrank</li>
+                          <li><i class="fas fa-check-circle"></i> Toaster</li>
+                          <li><i class="fas fa-check-circle"></i> Dampfgarer</li>
+                      </ul>
+                    </div>
+                    <div class="col-sm-12 col-md-6 mb-4 text-left">
+                      <h6>Preise</h6>
+                      <ul>
+                        <li><strong class="price">35€</strong> für max. 2 Personen pro Nacht</li>
+                        <li><strong class="price">65€</strong> für max. 4 Personen pro Nacht</li>
+                      </ul>
+                      <ul>
+                        <li><strong class="price">15€</strong> Aufbettung pro Person</li>
+                        <li><strong class="price">5€</strong> pro Hund bis max. 3 Hunde</li>
+                      </ul>
+                      <ul class="mb-4">
+                        <li><strong class="price">35€</strong> Endreinigung</li>
+                      </ul>
+                      
+                      <h6>Rabatte</h6>
+                      <ul>
+                        <li><strong class="price">10%</strong> ab dem 4. Tag</li>
+                        <li><strong class="price">15%</strong> ab dem 8. Tag</li>
+                        <li><span class="text-small">jeweils auf die gesamte Mietdauer</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--
+          <div class="col-md-6 col-lg-6 mb-5">
+            <div class="hotel-room text-center">
+              <a href="#" class="d-block mb-0 thumbnail"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
+              <div class="hotel-room-body">
+                <h3 class="heading mb-0"><a href="#">Westerwald Appartment</a></h3>
+                <strong class="price">Im Bau</strong>
+              </div>
+            </div>
+          </div>
+          --></div>
+        </div>
+      </div>
+
+      <div class="site-section" id="kontakt">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6 mb-5 mb-md-0">
+              <div class="img-border">
+                <img src="images/dogs_1.jpg" alt="" class="img-fluid" />
+              </div>
+              <img
+                src="images/motorrad.jpg"
+                alt="Image"
+                class="img-fluid image-absolute"
+              />
+            </div>
+            <div class="col-md-5 ml-auto">
+              <div class="section-heading text-left">
+                <h2 class="mb-5">Kontakt</h2>
+              </div>
+              <div class="mb-4">
+                <div>Familie Langhardt</div>
+                <div>Im Rauschen 2</div>
+                <div>56305 Döttesfeld</div>
+                <div>Tel: 02685 268 95 32</div>
+                <div>Mobil: 01577 43 52 742</div>
+              </div>
+              <p>
+                <a
+                  href="mailto:heike-langhardt@t-online.de"
+                  class="text-uppercase"
+                  >E-Mail senden <span class="icon-arrow-right small"></span
+                ></a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--
+    <div class="py-5 upcoming-events" style="background-image: url('images/hero_1.jpg'); background-attachment: fixed;">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <h2 class="text-white">Summer Promo 50% Off</h2>
+            <a href="#" class="text-white btn btn-outline-warning rounded-0 text-uppercase">Avail Now</a>
+          </div>
+          <div class="col-md-6">
+            <span class="caption">The Promo will start in</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+-->
+
+      <div class="site-section gallery-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 mx-auto text-center mb-5 section-heading">
+              <h2 class="mb-5" id="gallery">Gallerie</h2>
+            </div>
+          </div>
+          <div class="row no-gutters">
+            <div class="col-md-6 col-lg-4">
+              <a href="images/img_1.jpg" class="image-popup img-opacity"
+                ><img src="images/img_1.jpg" alt="Image" class="img-fluid"
+              /></a>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <a href="images/img_2.jpg" class="image-popup img-opacity"
+                ><img src="images/img_2.jpg" alt="Image" class="img-fluid"
+              /></a>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <a href="images/img_3.jpg" class="image-popup img-opacity"
+                ><img src="images/img_3.jpg" alt="Image" class="img-fluid"
+              /></a>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <a href="images/img_4.jpg" class="image-popup img-opacity"
+                ><img src="images/img_4.jpg" alt="Image" class="img-fluid"
+              /></a>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <a href="images/img_5.jpg" class="image-popup img-opacity"
+                ><img src="images/img_5.jpg" alt="Image" class="img-fluid"
+              /></a>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <a href="images/img_6.jpg" class="image-popup img-opacity"
+                ><img src="images/img_6.jpg" alt="Image" class="img-fluid"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h3 class="footer-heading mb-4 text-white">
+                Zu Gast im Westerwald
+              </h3>
+              <p>Wir freuen uns auf Ihren Besuch.</p>
+            </div>
+            <div class="col-md-6">
+              <div class="row">
+                <div class="col-md-6"></div>
+                <div class="col-md-6">
+                  <h3 class="footer-heading mb-4 text-white">Kontakt</h3>
+                  <ul class="list-unstyled">
+                    <li>Familie Langhardt</li>
+                    <li>Im Rauschen 2</li>
+                    <li>56305 Döttesfeld</li>
+                    <li>Tel: 02685 268 95 32</li>
+                    <li>Mobil: 01577 43 52 742</li>
+                    <li>
+                      <a href="mailto:heike-langhardt@t-online.de"
+                        >heike-langhardt@t-online.de</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!--
+          <div class="col-md-2">
+            <div class="col-md-12"><h3 class="footer-heading mb-4 text-white">Social Icons</h3></div>
+              <div class="col-md-12">
+                <p>
+                  <a href="#" class="pb-2 pr-2 pl-0"><span class="icon-facebook"></span></a>
+                  <a href="#" class="p-2"><span class="icon-twitter"></span></a>
+                  <a href="#" class="p-2"><span class="icon-instagram"></span></a>
+                  <a href="#" class="p-2"><span class="icon-vimeo"></span></a>
+
+                </p>
+              </div>
+          </div>
+-->
+          </div>
+          <div class="row pt-5 mt-5 text-center">
+            <div class="col-md-12">
+              <p>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                Copyright &copy;
+                <script
+                  data-cfasync="false"
+                  src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+                ></script
+                ><script>
+                  document.write(new Date().getFullYear());
+                </script>
+                All Rights Reserved | This template is made with
+                <i class="fas fa-heart"></i> by
+                <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
