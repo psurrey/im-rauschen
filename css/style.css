@@ -519,6 +519,7 @@ a:hover {
   -webkit-box-shadow: 0 0 30px -5px rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 30px -5px rgba(0, 0, 0, 0.1);
   background: #fff !important;
+  border-top: 3px solid #009726;
 }
 .site-navbar-wrap.scrolled .site-menu-toggle span {
   color: #000;
